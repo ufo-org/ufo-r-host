@@ -13,5 +13,7 @@ crate-type = ["dylib", "staticlib"]
 cbindgen = "^0.21"
 
 [dependencies]
-ufo_ipc = { git = "https://github.com/electroCutie/ufo_ipc", branch = "main" }
+# git = "https://github.com/ufo-org/ufo_ipc", 
+# branch = "main" 
+ufo_ipc = { path = "../ufo_ipc" }
 libc = "0.2.80"
